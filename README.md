@@ -18,12 +18,12 @@ QUICK INSTALL
 -------------
 Install Fedora 17.
 
-sudo yum install -y git
-sudo yum update -y
+`sudo yum install -y git`  
+`sudo yum update -y`
 
-sudo reboot
+`sudo reboot`
 
-cd `<destination_folder_parent>`  
+`cd <destination_folder_parent>`  
 
 `git clone https://github.com/marcos-sb/quick-openstacked-hadoop.git`  
 (quick-openstacked-hadoop folder will be created for you)
