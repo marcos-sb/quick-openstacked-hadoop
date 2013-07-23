@@ -43,7 +43,7 @@ QUICK RUN
 
 `python manage.py runserver`
 
-navigate to http://localhost:8000/albaproject/mapred
+navigate to [http://localhost:8000/albaproject/mapred](http://localhost:8000/albaproject/mapred)
 
 user: "udc"  
 password: "udc"
@@ -51,4 +51,4 @@ password: "udc"
 
 HORIZON
 -------
-OpenStack native administration web interface is accessible at http://localhost/dashboard
+OpenStack native administration web interface is accessible at [http://localhost/dashboard](http://localhost/dashboard)
