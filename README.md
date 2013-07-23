@@ -1,6 +1,8 @@
 Quick OpenStacked Hadoop
 ========================
-An easy way to tap your hardware to compute MapReduce applications.
+An easy way to tap your hardware to compute MapReduce applications.  
+Full [essay](https://docs.google.com/file/d/0B2lmVzXW-C5UTjllNm5wM04zd0k/edit?usp=sharing) and keynote presentation [slides](https://docs.google.com/file/d/0B2lmVzXW-C5UQ21Fa3dhdG9CbFk/edit?usp=sharing) released online but in Spanish. Design diagrams and figures in English.  
+Videos showing [alpha](http://youtu.be/BvTlNLc7bGg) and [beta](http://youtu.be/WKaQ_f0PmSY) versions are also available.
 
 FOREWORD
 --------
