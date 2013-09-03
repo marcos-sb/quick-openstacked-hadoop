@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <div>
+      {% if user.is_authenticated %}
+        connected as {{ user.username }}
+        <a href="{% url home %}">home</a>
+        <a href="{% url logout %}">logout</a>
+      {% endif %}
+    </div>
+    <div>
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>

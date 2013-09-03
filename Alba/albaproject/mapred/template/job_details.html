@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+  <tr>
+    <td>Job id</td>
+    <td>{{ job.pk }}</td>
+  </tr>
+  <tr>
+    <td>Job owner</td>
+    <td>{{ user.username }}</td>
+  </tr>
+  <tr>
+    <td>Submission date</td>
+    <td>{{ job.submission_date }}</td>
+  </tr>
+  <tr>{% url job_download job_id=job.pk kind='input' as download_input_url %}
+    <td>Input file</td>
+    <td><a href="{{ download_input_url }}">Download</a></td>
+  </tr>
+  <tr>{% url job_download job_id=job.pk kind='mapred' as download_mapred_url %}
+    <td>MapReduce Jar</td>
+    <td><a href="{{ download_mapred_url }}">Download</a></td>
+  </tr>
+  <tr>
+    <td>MapReduce job main class</td>
+    <td>{{ job.fully_qualified_job_impl_class }}</td>
+  </tr>
+  <tr>
+    {% if job.file_output %}
+        {% url job_download job_id=job.pk kind='output' as download_output_url %}
+    {% endif %}
+    <td>Output file</td>
+    <td>
+      {% if download_output_url %}
+      <a href="{{ download_output_url }}">Download</a>
+      {% else %}
+      <p>Unavaliable...</p>
+      {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <td>Instance count</td>
+    <td>{{ job.server_set.count }}</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Server name</th>
+    <th>VCPUs</th>
+    <th>RAM (MB)</th>
+    <th>Disk (GB)</th>
+  </tr>
+  {% for instance in job.server_set.all %}
+  <tr>
+    <td>{{ instance.server_name }}</td>
+    <td>{{ instance.vcpus }}</td>
+    <td>{{ instance.ram }}</td>
+    <td>{{ instance.disk }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

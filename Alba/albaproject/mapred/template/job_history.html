@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if job_list %}
+  <table>
+    <tr>
+      <th>Job id</th>
+      <th>MapReduce job main class</th>
+      <th>Submission date</th>
+      <th>Instance count</th>
+    </tr>
+  {% for job in job_list %}
+    <tr>{% url job_details job_id=job.pk as details_url %}
+      <td>{{ job.pk }}</td>
+      <td>{{ job.fully_qualified_job_impl_class }}</td>
+      <td>{{ job.submission_date }}</td>
+      <td>{{ job.server_set.count }}</td>
+      <td><a href="{{ details_url }}">Job details</a></td>
+    </tr>
+  {% endfor %}
+  </table>
+{% else %}
+  <p>&ltempty&gt</p>
+{% endif %}
+{% endblock %}
