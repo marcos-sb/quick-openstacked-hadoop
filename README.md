@@ -2,8 +2,9 @@ Quick OpenStacked Hadoop
 ========================
 An easy way to use your hardware to compute MapReduce applications.  
 Full [thesis](https://docs.google.com/file/d/0B2lmVzXW-C5UTjllNm5wM04zd0k/edit?usp=sharing) in Spanish, [paper](http://www.oalib.com/paper/3064389) and [book](http://www.amazon.com/Private-Cloud-Implementation-MapReduce-Applications/dp/3659643963) in English.  
-Keynote presentation [slides](https://docs.google.com/file/d/0B2lmVzXW-C5USHVhQnRtVTBqSWM/edit?usp=sharing) in English.  
-__Videos__ showing [alpha](http://youtu.be/BvTlNLc7bGg) and [beta](http://youtu.be/WKaQ_f0PmSY) versions are also available.
+Keynote presentation [slides](https://docs.google.com/file/d/0B2lmVzXW-C5USHVhQnRtVTBqSWM/edit?usp=sharing) in English.
+Click to watch it in action on Youtube.
+[![Click to watch on Youtube](http://img.youtube.com/vi/WKaQ_f0PmSY/0.jpg)](http://youtu.be/WKaQ_f0PmSY).
 
 FOREWORD
 --------
