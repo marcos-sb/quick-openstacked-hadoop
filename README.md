@@ -5,7 +5,7 @@ An easy way to use your hardware to compute MapReduce applications. _qosh_ is th
 * Keynote presentation [slides](https://docs.google.com/file/d/0B2lmVzXW-C5USHVhQnRtVTBqSWM/edit?usp=sharing) in English.  
 * Click the image just below to watch it in action on Youtube.
 
-[![Click to watch on Youtube](http://img.youtube.com/vi/WKaQ_f0PmSY/0.jpg)](http://youtu.be/WKaQ_f0PmSY).
+[![Click to watch on Youtube](http://img.youtube.com/vi/WKaQ_f0PmSY/0.jpg)](https://www.youtube.com/watch?v=WKaQ_f0PmSY).
 
 FOREWORD
 --------
