@@ -1,7 +1,7 @@
-Quick OpenStacked Hadoop
-========================
-An easy way to use your hardware to compute MapReduce applications.  
-* Full [thesis](https://docs.google.com/file/d/0B2lmVzXW-C5UTjllNm5wM04zd0k/edit?usp=sharing) in Spanish, [paper](http://www.oalib.com/paper/3064389) and [book](http://www.amazon.com/Private-Cloud-Implementation-MapReduce-Applications/dp/3659643963) in English.  
+Quick OpenStacked Hadoop - qosh
+=
+An easy way to use your hardware to compute MapReduce applications. _qosh_ is the result of my CS degree thesis.
+* Full [thesis](https://docs.google.com/file/d/0B2lmVzXW-C5UTjllNm5wM04zd0k/edit?usp=sharing) in Spanish, [paper](http://www.oalib.com/paper/3064389) and [book](http://www.amazon.com/Private-Cloud-Implementation-MapReduce-Applications/dp/3659643963) in English featuring qosh.  
 * Keynote presentation [slides](https://docs.google.com/file/d/0B2lmVzXW-C5USHVhQnRtVTBqSWM/edit?usp=sharing) in English.  
 * Click the image just below to watch it in action on Youtube.
 
